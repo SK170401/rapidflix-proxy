@@ -18,9 +18,8 @@ app.get('/tmdb', async (req, res) => {
                 Authorization: `Bearer ${apiKey}`
             }
         };
-        const apiUrl = `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}`;
 
-        const response = await fetch(apiUrl);
+        const response = await fetch(`https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1`, options);
         const data = await response.json();
 
         res.json(data);
