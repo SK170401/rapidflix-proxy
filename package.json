@@ -1,0 +1,17 @@
+{
+  "name": "rapidflix-api-server",
+  "version": "1.0.0",
+  "description": "Proxy server for rapidflix api access",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "SK1704",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
