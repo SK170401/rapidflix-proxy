@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "entrypoint": "app.js",
     "builds": [
         {
             "src": "app.js",
